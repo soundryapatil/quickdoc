@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Dr. Richard James",
+      "email": "richard.james1@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sara Mills",
+      "email": "sara.mills1@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Alan Smith",
+      "email": "alan.smith1@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Richard James",
+      "email": "richard.james2@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Sara Mills",
+      "email": "sara.mills2@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Alan Smith",
+      "email": "alan.smith2@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "doctor",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "$2a$10$NVCou4O/alohiFsTbR3hKO4MHNr4fVXayMorIFclVXHtYmDWtKgze",
+      "role": "user",
+      "createdAt": "2025-11-08T10:00:00.000Z",
+      "updatedAt": "2025-11-08T10:00:00.000Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Richard James",
+      "specialty": "General physician",
+      "experience": "5 years",
+      "fees": 50,
+      "picture": "/assets/doc1.png",
+      "available": true,
+      "userId": "1",
+      "createdAt": "2025-11-07T16:41:00.916Z",
+      "updatedAt": "2025-11-07T16:41:00.916Z"
+    },
+    {
+      "id": "2",
+      "name": "Dr. Sara Mills",
+      "specialty": "Gynecologist",
+      "experience": "7 years",
+      "fees": 60,
+      "picture": "/assets/doc2.png",
+      "available": true,
+      "userId": "2",
+      "createdAt": "2025-11-07T16:41:00.917Z",
+      "updatedAt": "2025-11-07T16:41:00.917Z"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Alan Smith",
+      "specialty": "Dermatologist",
+      "experience": "10 years",
+      "fees": 70,
+      "picture": "/assets/doc3.png",
+      "available": true,
+      "userId": "3",
+      "createdAt": "2025-11-07T16:41:00.917Z",
+      "updatedAt": "2025-11-07T16:41:00.917Z"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Richard James",
+      "specialty": "General physician",
+      "experience": "5 years",
+      "fees": 50,
+      "picture": "/assets/doc1.png",
+      "available": true,
+      "userId": "4",
+      "createdAt": "2025-11-07T16:45:25.575Z",
+      "updatedAt": "2025-11-07T16:45:25.575Z"
+    },
+    {
+      "id": "5",
+      "name": "Dr. Sara Mills",
+      "specialty": "Gynecologist",
+      "experience": "7 years",
+      "fees": 60,
+      "picture": "/assets/doc2.png",
+      "available": true,
+      "userId": "5",
+      "createdAt": "2025-11-07T16:45:25.578Z",
+      "updatedAt": "2025-11-07T16:45:25.578Z"
+    },
+    {
+      "id": "6",
+      "name": "Dr. Alan Smith",
+      "specialty": "Dermatologist",
+      "experience": "10 years",
+      "fees": 70,
+      "picture": "/assets/doc3.png",
+      "available": true,
+      "userId": "6",
+      "createdAt": "2025-11-07T16:45:25.581Z",
+      "updatedAt": "2025-11-07T16:45:25.581Z"
+    }
+  ],
+  "appointments": []
+}

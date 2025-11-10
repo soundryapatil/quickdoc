@@ -1,0 +1,20 @@
+/* Minimal admin styles to approximate the provided design */
+.admin-root { display:flex; min-height:100vh; font-family: Inter, Arial, sans-serif; }
+.admin-sidebar { width:220px; background:#fff; border-right:1px solid #eef0f5; padding:24px; }
+.admin-brand { font-weight:700; font-size:20px; display:flex; align-items:center; justify-content:space-between; }
+.admin-brand .badge { background:#eef3ff; color:#4b6bff; padding:4px 8px; border-radius:6px; font-size:12px; margin-left:8px }
+.admin-nav ul { list-style:none; padding:0; margin-top:24px }
+.admin-nav li { margin:12px 0 }
+.admin-nav a { color:#333; text-decoration:none }
+.admin-main { flex:1; background:#f5f7fb; min-height:100vh; display:flex; flex-direction:column }
+.admin-topbar { display:flex; justify-content:flex-end; padding:16px 24px; border-bottom:1px solid #eef0f5; background:#fff }
+.admin-content { padding:24px; }
+.stats-row { display:flex; gap:16px; margin-bottom:20px }
+.stat-card { background:#fff; padding:16px; border-radius:8px; box-shadow:0 1px 0 rgba(0,0,0,0.03); min-width:160px }
+.appt-list { background:#fff; padding:12px; border-radius:8px }
+.appointments-table table { width:100%; border-collapse:collapse; background:#fff }
+.appointments-table th, .appointments-table td { padding:12px 8px; border-bottom:1px solid #eef0f5; text-align:left }
+.add-doctor-form .row { display:flex; gap:12px; margin-bottom:12px }
+.add-doctor-form input, .add-doctor-form textarea { width:100%; padding:8px; border:1px solid #e6e9ef; border-radius:6px }
+.doctors-grid.admin-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:16px }
+.doctor-card.admin-card { background:#fff; padding:12px; border-radius:8px; text-align:center }
