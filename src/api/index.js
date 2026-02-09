@@ -1,4 +1,5 @@
 // API client for Prescripto frontend
+const API_BASE = process.env.REACT_APP_API_URL || '';
 const getToken = () => localStorage.getItem('prescripto_token');
 
 const request = async (path, opts = {}) => {
@@ -6,7 +7,7 @@ const request = async (path, opts = {}) => {
   headers['Content-Type'] = 'application/json';
   const token = getToken();
   if (token) headers['Authorization'] = `Bearer ${token}`;
-  const res = await fetch(path, { ...opts, headers });
+  const res = await fetch(API_BASE + path, { ...opts, headers });
   if (!res.ok) {
     const text = await res.text().catch(() => '');
     let json;
